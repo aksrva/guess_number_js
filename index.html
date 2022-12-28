@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="guess-section">
+        <div class="guess" id="guess-res">
+            <div class="guess-head">
+                <h1>Let's Guess the Number...</h1>
+            </div>
+            <div class="guess-number-field">
+                <input onfocus="removeAnim();" type="text" id="g_no" placeholder="Enter the Number Here...">
+            </div>
+            <div class="button">
+                <button onclick="guess();">Submit</button>
+            </div>
+            <div id="instruction">
+                <div id="ins"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
